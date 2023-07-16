@@ -5,4 +5,5 @@ def display(request):
     s1='<h1>Hello World</h1>'
     s2='<h1>Good Evening</h1>'
     s3='<h1>ITVEDANT</h1>'
-    return HttpResponse(s)
+    
+    return HttpResponse(s1+s2+s3)
